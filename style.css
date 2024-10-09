@@ -472,7 +472,7 @@ footer .bus-image {
         align-items: center;
         max-height: 43px;
         font-size: 30px;
-        margin-left: 7px;
+        margin-left: 20px;
     }
     
     #ImagemNav{
@@ -484,9 +484,10 @@ footer .bus-image {
         border: 2px solid #0056b3;
         color: #0056b3;
         width: 20%;
-        height: 50%;
+        height: 60%;
         margin-right: 10px;
         display: flex;
+        margin-right: 20px;
     }
     
     #buttonAdm:hover{
