@@ -271,10 +271,6 @@ footer {
     margin-top: -300px;
   }
 
-  .listra{
-    width: 100%;
-  }
-
   #bus{
     position: absolute;
     transform: scaleX(-100%);
