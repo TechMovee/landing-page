@@ -149,5 +149,160 @@ footer {
   height: auto;
 }
 
+@media screen and (max-width: 600px) {
+  body {
+    font-family: Inter, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .form {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 100px;
+    max-width: 350px;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;  
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(50px);
+  }
+  
+  
+  
+  .title {
+    font-size: 28px;
+    color: royalblue;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .message, .signin {
+    color: rgba(88, 87, 87, 0.822);
+    font-size: 14px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+  }
+  
+  .flex {
+    display: flex;
+    gap: 40px;
+    margin-right: 15px;
+  }
+  
+  .form label {
+    position: relative;
+    width: 325px;
+  }
+  
+  .form label .input {
+    width: 93%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+  }
+  
+  .form label .input + span {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: grey;
+    font-size: 0.9em;
+    transition: 0.3s ease;
+  }
+  
+  .form label .input:placeholder-shown + span {
+    font-size: 0.9em;
+  }
+  
+  .form label .input:focus + span,
+  .form label .input:valid + span {
+    top: -20px;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: royalblue;
+  }
+  
+  .form label .input:focus{
+    border-color: royalblue;
+  }
+  
+  .submit {
+    border: none;
+    outline: none;
+    background-color: #FAB744;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 40px;
+    transition: 0.3s ease;
+  }
+  
+  .submit:hover {
+    background-color: rgb(56, 90, 194);
+  }
+  
+  div{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+  }
+
+  footer {
+    background-color: #1C1C1C; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: -300px;
+  }
+
+  .listra{
+    width: 100%;
+  }
+
+  #bus{
+    position: absolute;
+    transform: scaleX(-100%);
+    width: 50%;
+    margin-left: -98%;
+  }
+  
+  #backLogin {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 40px; 
+    height: auto;
+  }
+  .estrada{
+    height: 100%;
+    width: 200%;
+    display: flex;
+}
+
+.estrada .listra{
+    background-color: #ffffff;
+    width: 150px;
+    height: 10px;
+    margin-bottom: -500px;
+    border-radius: 10px;
+}   
+  
+}
 
 
