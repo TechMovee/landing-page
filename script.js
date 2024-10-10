@@ -11,6 +11,6 @@ botaoApp.addEventListener("click", function () {
 });
 
 botaoMenu.addEventListener("click", function () {
-    window.location.replace("TelaLoginCadeado/telaLoginCadeado1.html");
+    window.location.replace("telaLoginCadeado1.html");
 });
 
