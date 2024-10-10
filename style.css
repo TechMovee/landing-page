@@ -643,7 +643,7 @@ footer .bus-image {
 
     #Sobrenos p{
         font-size: 18px;
-        margin: -30% 10% 5% 10%;
+        margin: -35% 10% 5% 10%;
     }
     
     #Sobrenos img{
@@ -753,19 +753,18 @@ footer .bus-image {
         position: absolute;
         transform: scaleX(-100%);
         width: 50%;
-        margin-left: 300px;
+        margin-left: 360px;
         margin-top: -120px;
     }
 
     .estrada{
-        height: 100%;
-        width: 100%;
+        width: 150%;
         display: flex;
     }
     
     .estrada .listra{
         background-color: #1C1C1C;
-        width: 150px;
+        width: 40px;
         height: 10px;
         margin-bottom: -10px;
         border-radius: 10px;
