@@ -576,6 +576,8 @@ footer p {
     #ODS11 .text p {
         text-align: center;
         margin-top: -120px;
+        width: 150%;
+        margin-left: -20%;
     }
 
     #ODS11 img {
