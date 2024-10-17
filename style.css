@@ -6,9 +6,9 @@
 }
 
 /* Sections  -- */
-section{
+section {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     width: 100%;
     align-items: center;
     gap: 10%;
@@ -16,13 +16,13 @@ section{
     max-width: 100%;
 }
 
-section div{
+section div {
     max-height: 100%;
 }
 
 
 /* Body -- */
-body{
+body {
     height: 2300px;
     max-width: 100%;
     overflow-x: hidden;
@@ -30,7 +30,7 @@ body{
 }
 
 /* NavBar */
-button{
+button {
     width: 50%;
     border: 2px solid transparent;
     border-radius: 5px;
@@ -40,7 +40,7 @@ button{
 }
 
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,19 +50,19 @@ nav{
 }
 
 
-#ImagemNav{
+#ImagemNav {
     display: flex;
     align-items: center;
     max-height: 43px;
     font-size: 30px;
 }
 
-#ImagemNav{
+#ImagemNav {
     margin-left: 50px;
     color: #0056b3;
 }
 
-#buttonAdm{
+#buttonAdm {
     background-color: transparent;
     border: 2px solid #0056b3;
     color: #0056b3;
@@ -73,68 +73,69 @@ nav{
 }
 
 
-#buttonAdm:hover{
+#buttonAdm:hover {
     background-color: #0056b3;
     border-color: transparent;
     transition: all 0.3s ease;
     color: #ffffff;
 }
 
-#buttonAdm p{
+#buttonAdm p {
     font-size: 14px;
     margin-left: 70px;
     margin-top: 7px;
     text-align: center;
 }
 
-#buttonAdm img{
+#buttonAdm img {
     width: 15px;
     margin-right: 7px;
     margin-left: 7px;
     margin-top: 6px;
 }
+
 /* Primeira Seção - Bem Vindos */
 
-#BemVindos img{
+#BemVindos img {
     height: 655px;
     transform: translateY(-25%) translateX(200px);
-    max-width: 100%;  
+    max-width: 100%;
     position: absolute;
     margin-left: -15%;
     rotate: 0.19deg;
 }
 
-#BemVindos{
+#BemVindos {
     grid-template-columns: 60% 30%;
 }
 
-.text{
+.text {
     margin-left: 5%;
     text-align: center;
     color: black;
 }
 
-#BemVindos .text{
-    margin:auto;
+#BemVindos .text {
+    margin: auto;
     width: 70%;
 }
 
-.text h3{
+.text h3 {
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 45px;
 }
 
-.text h3 span{
+.text h3 span {
     font-weight: 100;
 }
 
 
-.text p{
+.text p {
     font-size: 20px;
 }
 
-#BemVindos .text button{
+#BemVindos .text button {
     float: left;
     padding: 5px;
     gap: 10px;
@@ -145,88 +146,76 @@ nav{
     color: #0276B2;
 }
 
-#BemVindos .text button:hover{
+#BemVindos .text button:hover {
     background-color: #0056b3;
     border-color: transparent;
     transition: all 0.3s ease;
     color: white;
 }
 
-#LaranjaSeção1{
-    background-color: #FFB950;
-    position: absolute;
-    rotate: -49deg;
-    height: 600px;
-    width: 800px;
-    right: -400px;
-    top: 370px;
-    z-index: -1;
-    clip-path: polygon(0 0, 100% 0, 0 100%);
-    overflow: hidden;
-}
 
-.buttons{
+.buttons {
     display: flex;
     min-width: 37%;
     min-height: 37.5px;
-    gap: 5%;;
+    gap: 5%;
+    ;
     height: 70px;
 
 }
 
 
-
 /* Seção 2 - ODS 11 */
 
-#ODS11{
+#ODS11 {
     grid-template-columns: 55% 45%;
     background-color: #FFB950;
     align-items: center;
     height: 32%;
 }
 
-#ODS11 .text{
+#ODS11 .text {
     margin-bottom: 5%;
     margin-left: 5%;
-}   
+}
 
-#ODS11 .text h3{
+#ODS11 .text h3 {
     margin-bottom: 150px;
     color: black
 }
 
-#ODS11 .text a{
-    text-decoration:underline;
+#ODS11 .text a {
+    text-decoration: underline;
 }
 
-#ODS11 .text a:hover{
+#ODS11 .text a:hover {
     color: #256BE5;
     transition: all 0.3s ease;
 }
 
-#ODS11 img{
+#ODS11 img {
     width: 75%;
     margin-top: 30px;
-    margin-left: -103px;
+    margin-left: 50px;
 }
 
 /* Seção 3 - Sobre nós */
 
-#h2Sobre{
+#h2Sobre {
     text-align: center;
     color: #256BE5;
     font-size: 45px;
     margin-top: 120px;
 }
 
-#Sobrenos p{
+#Sobrenos p {
     text-align: center;
     color: black;
     font-size: 23px;
     margin-right: 100px;
 }
 
-#Sobrenos img{
+#Sobrenos img {
     width: 100%;
     margin-left: 100px;
     border-radius: 25px;
@@ -234,12 +223,12 @@ nav{
 
 /* Seção 4 - Tipo de Cadastros */
 
-#TipoCadastro{
+#TipoCadastro {
     gap: 0;
     height: 32%;
 }
 
-#TipoCadastro div{
+#TipoCadastro div {
     align-items: center;
     justify-content: center;
     display: flex;
@@ -251,68 +240,68 @@ nav{
     color: #ffffff;
 }
 
-#TipoCadastro i{
+#TipoCadastro i {
     color: #ffffff;
     margin-top: 10%;
     font-size: 10rem;
 }
 
-#TipoCadastro p{
+#TipoCadastro p {
     margin: 0% 10% 5% 10%;
 }
 
-#Responsáveis{
+#Responsáveis {
     background-color: #247098;
 }
 
-#Responsáveis i{
+#Responsáveis i {
     font-size: 130px;
 }
 
-.ri-team-fill{
+.ri-team-fill {
     height: 160px;
     width: 160px;
 }
 
-#Transportadores{
+#Transportadores {
     background-color: #2C4D86;
 }
 
-#Transportadores p{
+#Transportadores p {
     margin: 0 10% 5% 10%;
 }
 
 /* Seção 5 - Funcionalidades */
 
-#tituloFunctions{
+#tituloFunctions {
     margin: 5% 0 5% 10%;
     font-size: 40px;
     color: black;
 }
 
 
-#tituloFunctions strong{
+#tituloFunctions strong {
     font-weight: 100;
     color: #FFB950;
 }
 
-#tituloFunctions i{
+#tituloFunctions i {
     font-weight: 100;
     color: #256BE5;
 }
 
-#SectFunctions{
+#SectFunctions {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     align-items: start;
     text-align: center;
-    width: 80%;
+    width: 75%;
     margin: auto;
 }
 
 
-.functions{
+.functions {
     display: flex;
     flex-flow: column;
     width: 80%;
@@ -322,10 +311,10 @@ nav{
     align-items: center;
     justify-content: center;
     margin: auto auto 20px auto;
-    
+
 }
 
-.functions i{
+.functions i {
     font-size: 6rem;
     color: #ffffff;
 }
@@ -333,7 +322,7 @@ nav{
 /* Footer */
 
 footer {
-    background-color: #1C1C1C; 
+    background-color: #1C1C1C;
     color: white;
     padding: 20px;
     text-align: center;
@@ -347,19 +336,19 @@ footer {
     align-items: center;
 }
 
-#bus{
+#bus {
     position: absolute;
     transform: scaleX(-100%);
     width: 18%;
     margin-top: -120px;
 }
 
-.estrada .listra{
+.estrada .listra {
     width: 140px;
     height: 10px;
     margin: 0 30px 0 70px;
     border-radius: 10px;
-}   
+}
 
 .icons {
     margin-bottom: 25px;
@@ -370,7 +359,7 @@ footer {
     font-size: 24px;
     margin: 0 10px;
     transition: color 0.3s ease;
-    text-decoration: none;  
+    text-decoration: none;
 }
 
 .icons a:hover {
@@ -385,27 +374,12 @@ footer p {
     margin-top: 10px;
 }
 
-footer .bus-image {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-
-#copy{
+#copy {
     text-align: center;
 }
 
-#video{
-    background-color: #FFB950;
-}
 
-#video video{
-    margin-left: 380px;
-    border-radius: 30px;
-}
-
-#redesSociais{
+#redesSociais {
     display: flex;
     gap: 10px;
     justify-content: center;
@@ -414,18 +388,17 @@ footer .bus-image {
     image-rendering: auto;
 }
 
+.imagem-estrada {
+    width: 100%;
+    transform: translateY(5%);
+}
+
 
 /* RESPONSIVIDADE */
 
 @media screen and (max-width: 600px) {
-    *{
-        margin: 0;
-        padding: 0;
-        font-family: Inter, sans-serif;
-        box-sizing: border-box;
-    }
 
-    section{
+    section {
         display: grid;
         width: 100%;
         align-items: center;
@@ -433,22 +406,13 @@ footer .bus-image {
         min-height: 700px;
         max-width: 100%;
     }
-    
-    section div{
+
+    section div {
         max-height: 100%;
     }
-    
-    
-    /* Body -- */
-    body{
-        height: 2300px;
-        max-width: 100%;
-        overflow-x: hidden;
-        background-color: #ffffff;
-    }
-    
+
     /* NavBar */
-    button{
+    button {
         width: 50%;
         border: 2px solid transparent;
         border-radius: 5px;
@@ -456,30 +420,30 @@ footer .bus-image {
         cursor: pointer;
         transition: all 0.5s ease;
     }
-    
-    
-    nav{
+
+
+    nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
         height: 70px;
         width: 100%;
     }
-    
-    
-    #ImagemNav{
+
+
+    #ImagemNav {
         display: flex;
         align-items: center;
         max-height: 43px;
         font-size: 30px;
         margin-left: 20px;
     }
-    
-    #ImagemNav{
+
+    #ImagemNav {
         color: #0056b3;
     }
-    
-    #buttonAdm{
+
+    #buttonAdm {
         background-color: transparent;
         border: 2px solid #0056b3;
         color: #0056b3;
@@ -489,22 +453,22 @@ footer .bus-image {
         display: flex;
         margin-right: 20px;
     }
-    
-    #buttonAdm:hover{
+
+    #buttonAdm:hover {
         background-color: #0056b3;
         border-color: transparent;
         transition: all 0.3s ease;
         color: #ffffff;
     }
-    
-    #buttonAdm p{
+
+    #buttonAdm p {
         font-size: 14px;
         margin-left: 0;
         margin-top: 0px;
         text-align: center;
     }
-    
-    #buttonAdm img{
+
+    #buttonAdm img {
         width: 15px;
         margin-right: 7px;
         margin-left: 7px;
@@ -512,42 +476,42 @@ footer .bus-image {
     }
 
     /* Primeira Seção - Bem Vindos */
-    
-    #BemVindos img{
-       display: none;
+
+    #BemVindos img {
+        display: none;
     }
-    
-    #BemVindos{
-        grid-template-columns: 100% 50%;
+
+    #BemVindos {
+        grid-template-columns: 100%;
     }
-    
-    .text{
-        margin-left: 5%;
+
+    .text {
+        margin-left: 35%;
         text-align: center;
         color: black;
     }
-    
-    #BemVindos .text{
-        margin:auto;
+
+    #BemVindos .text {
+        margin: auto;
         width: 70%;
     }
-    
-    .text h3{
+
+    .text h3 {
         font-size: 40px;
         font-weight: 600;
         margin-bottom: 45px;
     }
-    
-    .text h3 span{
+
+    .text h3 span {
         font-weight: 100;
     }
-    
-    
-    .text p{
+
+
+    .text p {
         font-size: 20px;
     }
-    
-    #BemVindos .text button{
+
+    #BemVindos .text button {
         float: left;
         padding: 5px;
         gap: 10px;
@@ -557,199 +521,193 @@ footer .bus-image {
         border: 2px solid #0276B2;
         color: #0276B2;
     }
-    
-    #BemVindos .text button:hover{
+
+    #BemVindos .text button:hover {
         background-color: #0056b3;
         border-color: transparent;
         transition: all 0.3s ease;
         color: white;
     }
-    
-    #LaranjaSeção1{
-        background-color: #FFB950;
-        position: absolute;
-        rotate: -49deg;
-        height: 600px;
-        width: 800px;
-        right: -420px;
-        top: 370px;
-        z-index: -1;
-        clip-path: polygon(0 0, 100% 0, 0 100%);
-        overflow: hidden;
-        display: none;
-    }
-    
-    .buttons{
+    .buttons {
         display: flex;
         min-width: 37%;
         min-height: 37.5px;
-        gap: 5%;;
+        gap: 5%;
+        ;
         height: 70px;
-    
+
     }
-    
-    
-    
+
+
+
     /* Seção 2 - ODS 11 */
-    
-    #ODS11{
-        grid-template-columns: 90% 70%;
+
+    #ODS11 {
+        grid-template-columns: 70% 20%;
         background-color: #FFB950;
         align-items: center;
         height: 32%;
     }
-    
-    #ODS11 .text{
-        margin-top: -300px;
-        margin-left: 10%;
-    }   
-    
-    #ODS11 .text h3{
+
+    #ODS11 .text i{
+        width: 100%;
+    }
+
+    #ODS11 .text {
+        margin-left: 40%;
+        margin-bottom: 80%;
+        text-align: center;
+    }
+
+    #ODS11 .text h3 {
         margin-bottom: 150px;
         color: black
     }
-    
-    #ODS11 .text a{
-        text-decoration:underline;
+
+    #ODS11 .text a {
+        text-decoration: underline;
     }
-    
-    #ODS11 .text a:hover{
+
+    #ODS11 .text a:hover {
         color: #256BE5;
         transition: all 0.3s ease;
     }
 
-    #ODS11 .text p{
-        margin-top: -100px;
+    #ODS11 .text p {
+        text-align: center;
+        margin-top: -120px;
     }
 
-    #ODS11 img{
-        width: 100%;
-        margin-top: 350px;
-        margin-left: -350px;
+    #ODS11 img {
+        width: 200%;
+        margin-top: 500px;
+        margin-left: -250%;
     }
-    
+
     /* Seção 3 - Sobre nós */
-    
-    #h2Sobre{
+
+    #h2Sobre {
         text-align: center;
         color: #256BE5;
         font-size: 45px;
         margin-top: 100px;
     }
+
     #Sobrenos {
         display: grid;
-        grid-template-columns: 100% ;
+        grid-template-columns: 100%;
     }
 
-    #Sobrenos p{
+    #Sobrenos p {
         font-size: 18px;
         margin: -35% 10% 5% 10%;
     }
-    
-    #Sobrenos img{
+
+    #Sobrenos img {
         width: 90%;
         margin-left: 18px;
         border-radius: 25px;
     }
-    
+
     /* Seção 4 - Tipo de Cadastros */
 
-    #TipoCadastro{
+    #TipoCadastro {
         display: flex;
         flex-direction: column;
     }
-        
-    #TipoCadastro div{
+
+    #TipoCadastro div {
         align-items: center;
         justify-content: center;
         font-size: 16px;
         height: 100%;
         width: 100%;
         color: #ffffff;
-        
+
     }
-    
-    #TipoCadastro i{
+
+    #TipoCadastro i {
         color: #ffffff;
         margin-top: 10%;
         font-size: 10rem;
     }
-    
-    #TipoCadastro p{
+
+    #TipoCadastro p {
         margin: 0% 10% 5% 10%;
     }
-    
-    #Responsáveis{
+
+    #Responsáveis {
         background-color: #247098;
     }
-    
-    #Responsáveis i{
+
+    #Responsáveis i {
         font-size: 130px;
     }
-    
-    .ri-team-fill{
+
+    .ri-team-fill {
         height: 160px;
         width: 160px;
     }
-    
-    #Transportadores{
+
+    #Transportadores {
         background-color: #2C4D86;
     }
-    
-    #Transportadores p{
+
+    #Transportadores p {
         margin: 0 10% 5% 10%;
     }
-    
+
     /* Seção 5 - Funcionalidades */
-    
-    #tituloFunctions{
-        margin: 15% -10% 0 10%;
+
+    #tituloFunctions {
         font-size: 40px;
         color: black;
     }
-    
-    
-    #tituloFunctions strong{
+
+
+    #tituloFunctions strong {
         font-weight: 100;
         color: #FFB950;
     }
-    
-   #SectFunctions{
-       display: flex;
-       flex-direction: column;
-       gap: 50px;
-       margin-left: 27%;
-       height: 100%;
-       width: 45%;
-       margin-top: -550px;
-   } 
-    
-    .functions{
+
+    #SectFunctions {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-left: 23%;
+        height: 100%;
+        width: 55%;
+        margin-top: -550px;
+    }
+
+    .functions {
         height: 150px;
         background-color: #21445B;
         border-radius: 50%;
         align-items: center;
         justify-content: center;
-    }  
-    
+    }
+
     /* Footer */
-    
+
     footer {
-        background-color: #1C1C1C; 
+        margin: 0;
+        background-color: transparent;
         color: white;
-        padding: 20px;
+        padding: 0px;
         text-align: center;
         margin-top: -300px;
     }
-    
+
     .footer-content {
+        background-color: #1C1C1C;
         display: flex;
         gap: 40px;
         align-items: center;
         height: 100%;
     }
-    
-    #bus{
+
+    #bus {
         position: absolute;
         transform: scaleX(-100%);
         width: 50%;
@@ -757,67 +715,67 @@ footer .bus-image {
         margin-top: -120px;
     }
 
-    .estrada{
-        width: 150%;
+    .estrada {
         display: flex;
     }
-    
-    .estrada .listra{
+
+    .estrada .listra {
         background-color: #1C1C1C;
         width: 40px;
         height: 10px;
         margin-bottom: -10px;
         border-radius: 10px;
-    }   
-    
+    }
+
     .icons {
         margin-bottom: 25px;
     }
-    
+
     .icons a {
         color: #007bff;
         font-size: 24px;
         margin: 0 10px;
         transition: color 0.3s ease;
-        text-decoration: none;  
+        text-decoration: none;
     }
-    
+
     .icons a:hover {
         color: #0056b3;
         background-color: #FFB950;
         transition: 0.299s;
         border-radius: 10px;
     }
-    
+
     footer p {
         font-size: 14px;
         margin-top: 10px;
     }
-    
+
     footer .bus-image {
         display: flex;
         justify-content: center;
         margin-bottom: 10px;
     }
-    
-    
-    #copy{
+
+
+    #copy {
         text-align: center;
     }
-    
-    #redesSociais{
+
+    #redesSociais {
         display: flex;
         gap: 10px;
         justify-content: center;
         margin-top: -5px;
         image-rendering: auto;
-    }    
-    #final{
+    }
+
+    #final {
         background-color: #1C1C1C;
-        margin-top: 50px;
         height: 5%;
     }
 }
+
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
     * {
@@ -826,33 +784,33 @@ footer .bus-image {
         font-family: Inter, sans-serif;
         box-sizing: border-box;
     }
-    
+
     /* Sections  -- */
-    section{
+    section {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         width: 100%;
         align-items: center;
         gap: 25%;
         min-height: 700px;
         max-width: 100%;
     }
-    
-    section div{
+
+    section div {
         max-height: 100%;
     }
-    
-    
+
+
     /* Body -- */
-    body{
+    body {
         height: 2300px;
         max-width: 100%;
         overflow-x: hidden;
         background-color: #ffffff;
     }
-    
+
     /* NavBar */
-    button{
+    button {
         width: 50%;
         border: 2px solid transparent;
         border-radius: 5px;
@@ -860,31 +818,31 @@ footer .bus-image {
         cursor: pointer;
         transition: all 0.5s ease;
     }
-    
-    
-    nav{
+
+
+    nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
         height: 70px;
         width: 100%;
-    
+
     }
-    
-    
-    #ImagemNav{
+
+
+    #ImagemNav {
         display: flex;
         align-items: center;
         max-height: 43px;
         font-size: 30px;
     }
-    
-    #ImagemNav{
+
+    #ImagemNav {
         margin-left: 50px;
         color: #0056b3;
     }
-    
-    #buttonAdm{
+
+    #buttonAdm {
         background-color: transparent;
         border: 2px solid #0056b3;
         color: #0056b3;
@@ -893,70 +851,62 @@ footer .bus-image {
         margin-right: 50px;
         display: flex;
     }
-    
-    
-    #buttonAdm:hover{
+
+
+    #buttonAdm:hover {
         background-color: #0056b3;
         border-color: transparent;
         transition: all 0.3s ease;
         color: #ffffff;
     }
-    
-    #buttonAdm p{
+
+    #buttonAdm p {
         font-size: 14px;
         margin-left: 15px;
         margin-top: 7px;
         text-align: center;
     }
-    
-    #buttonAdm img{
+
+    #buttonAdm img {
         width: 15px;
         margin-right: 7px;
         margin-left: 7px;
         margin-top: 6px;
     }
+
     /* Primeira Seção - Bem Vindos */
-    
-    #BemVindos img{
-        height: 51%;
-        width: 52%;
-        transform: translateY(-25%) translateX(200px);
-        max-width: 100%;  
-        position: absolute;
-        margin-left: -62%;
+
+    #BemVindos {
+        grid-template-columns: 45% 30%;
     }
-    
-    #BemVindos{
-        grid-template-columns: 60% 30%;
-    }
-    
-    .text{
+
+    .text {
         margin-left: 5%;
         text-align: center;
         color: black;
     }
-    
-    #BemVindos .text{
-        margin:auto;
+
+    #BemVindos .text {
+        margin: auto;
         width: 70%;
     }
-    
-    .text h3{
+
+    .text h3 {
         font-size: 40px;
         font-weight: 600;
         margin-bottom: 45px;
     }
-    
-    .text h3 span{
+
+    .text h3 span {
         font-weight: 100;
     }
-    
-    
-    .text p{
+
+
+    .text p {
         font-size: 20px;
     }
-    
-    #BemVindos .text button{
+
+    #BemVindos .text button {
         float: left;
         padding: 5px;
         gap: 10px;
@@ -966,105 +916,97 @@ footer .bus-image {
         border: 2px solid #0276B2;
         color: #0276B2;
     }
-    
-    #BemVindos .text button:hover{
+
+    #BemVindos .text button:hover {
         background-color: #0056b3;
         border-color: transparent;
         transition: all 0.3s ease;
         color: white;
     }
-    
-    #LaranjaSeção1{
-        background-color: #FFB950;
-        position: absolute;
-        rotate: -49deg;
-        height: 600px;
-        width: 800px;
-        right: -410px;
-        top: 370px;
-        z-index: -1;
-        clip-path: polygon(0 0, 100% 0, 0 100%);
-        overflow: hidden;
-    }
-    
-    .buttons{
+
+  
+
+    .buttons {
         display: flex;
         min-width: 37%;
         min-height: 37.5px;
-        gap: 5%;;
+        gap: 5%;
+        ;
         height: 70px;
-    
+
     }
-    
-    
-    
+
+
+
     /* Seção 2 - ODS 11 */
-    
-    #ODS11{
-        grid-template-columns: 55% 45%;
+
+    #ODS11 {
+        grid-template-columns: 25% 45%;
         background-color: #FFB950;
         align-items: center;
         height: 32%;
     }
-    
-    #ODS11 .text{
+
+    #ODS11 .text {
         margin-bottom: 5%;
         margin-left: 5%;
-    }   
-    
-    #ODS11 .text h3{
+    }
+
+    #ODS11 .text h3 {
         margin-bottom: 150px;
         color: black
     }
-    
-    #ODS11 .text a{
-        text-decoration:underline;
+
+    #ODS11 .text a {
+        text-decoration: underline;
     }
-    
-    #ODS11 .text a:hover{
+
+    #ODS11 .text a:hover {
         color: #256BE5;
         transition: all 0.3s ease;
     }
-    
-    #ODS11 img{
-        width: 75%;
+
+    #ODS11 img {
+        width: 80%;
         margin-top: 30px;
         margin-left: -103px;
+
     }
-    
+
     /* Seção 3 - Sobre nós */
-    
-    #h2Sobre{
+
+    #h2Sobre {
         text-align: center;
         color: #256BE5;
         font-size: 45px;
         margin-top: 100px;
         margin-bottom: 50px;
     }
+
     #Sobrenos {
         display: grid;
-        grid-template-columns: 100% ;
+        grid-template-columns: 100%;
     }
 
-    #Sobrenos p{
+    #Sobrenos p {
         font-size: 18px;
         margin: -20% 10% 5% 10%;
     }
-    
-    #Sobrenos img{
+
+    #Sobrenos img {
         width: 90%;
         margin-left: 50px;
         border-radius: 25px;
     }
-    
+
     /* Seção 4 - Tipo de Cadastros */
-    
-    #TipoCadastro{
+
+    #TipoCadastro {
         gap: 0;
         height: 32%;
     }
-    
-    #TipoCadastro div{
+
+    #TipoCadastro div {
         align-items: center;
         justify-content: center;
         display: flex;
@@ -1075,58 +1017,58 @@ footer .bus-image {
         padding: 0 10px 0 10px;
         color: #ffffff;
     }
-    
-    #TipoCadastro i{
+
+    #TipoCadastro i {
         color: #ffffff;
         margin-top: 10%;
         font-size: 10rem;
     }
-    
-    #TipoCadastro p{
+
+    #TipoCadastro p {
         margin: 0% 10% 5% 10%;
     }
-    
-    #Responsáveis{
+
+    #Responsáveis {
         background-color: #247098;
     }
-    
-    #Responsáveis i{
+
+    #Responsáveis i {
         font-size: 130px;
     }
-    
-    .ri-team-fill{
+
+    .ri-team-fill {
         height: 160px;
         width: 160px;
     }
-    
-    #Transportadores{
+
+    #Transportadores {
         background-color: #2C4D86;
     }
-    
-    #Transportadores p{
-        margin: 0%   10% 5% 10%;
+
+    #Transportadores p {
+        margin: 0% 10% 5% 10%;
     }
-    
+
     /* Seção 5 - Funcionalidades */
-    
-    #tituloFunctions{
+
+    #tituloFunctions {
         margin: 5% 0 5% 10%;
         font-size: 40px;
         color: black;
     }
-    
-    
-    #tituloFunctions strong{
+
+
+    #tituloFunctions strong {
         font-weight: 100;
         color: #FFB950;
     }
-    
-    #tituloFunctions i{
+
+    #tituloFunctions i {
         font-weight: 100;
         color: #256BE5;
     }
-    
-    #SectFunctions{
+
+    #SectFunctions {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 70px);
@@ -1137,9 +1079,9 @@ footer .bus-image {
         margin: auto;
 
     }
-    
-    
-    .functions{
+
+
+    .functions {
         display: flex;
         flex-flow: column;
         width: 80%;
@@ -1149,81 +1091,81 @@ footer .bus-image {
         align-items: center;
         justify-content: center;
         margin: auto auto 20px auto;
-        
+
     }
-    
-    .functions i{
+
+    .functions i {
         font-size: 6rem;
         color: #ffffff;
     }
-    
+
     /* Footer */
-    
+
     footer {
-        background-color: #1C1C1C; 
+        background-color: transparent;
         color: white;
-        padding: 20px;
+        padding: 0px;
         text-align: center;
-        margin: -15%;
+        margin: 0;
     }
-    
+
     .footer-content {
+        background-color: #1C1C1C;
         display: flex;
         gap: 43px;
         flex-direction: column;
         align-items: center;
     }
-    
-    #bus{
+    #bus {
         position: absolute;
         transform: scaleX(-100%);
         width: 25%;
         margin-top: -80px;
     }
-    
-    .estrada .listra{
+
+    .estrada .listra {
         width: 50px;
         height: 10px;
         margin: 0 30px 0 70px;
         border-radius: 10px;
-    }   
-    
+    }
+
     .icons {
         margin-bottom: 25px;
     }
-    
+
     .icons a {
         color: #007bff;
         font-size: 24px;
         margin: 0 10px;
         transition: color 0.3s ease;
-        text-decoration: none;  
+        text-decoration: none;
     }
-    
+
     .icons a:hover {
         color: #0056b3;
         background-color: #FFB950;
         transition: 0.299s;
         border-radius: 10px;
     }
-    
+
     footer p {
         font-size: 14px;
         margin-top: 10px;
     }
-    
+
     footer .bus-image {
         display: flex;
         justify-content: center;
         margin-bottom: 10px;
     }
-    
-    
-    #copy{
+
+
+    #copy {
         text-align: center;
     }
-    
-    #redesSociais{
+
+    #redesSociais {
         display: flex;
         gap: 10px;
         justify-content: center;
@@ -1231,24 +1173,93 @@ footer .bus-image {
         background-color: #1C1C1C;
         image-rendering: auto;
     }
-    
-    
+
+
 }
+
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    #buttonAdm p{
+        margin-left: 15px;
+    }
+
+    #ODS11 {
+        grid-template-columns: 45% 45%;
+    }
+
+    #ODS11  p{
+        width: 70%;
+        margin-left: 60px;
+    }
+
+    #Sobrenos {
+        gap: 250px;
+        background-color: transparent;
+    }
+
+    #Sobrenos img{
+        width: 80%;
+        margin-left: 100px;
+    }
+
+    #SectFunctions {
+        width: 80%;
+        gap: 200px;
     
-
-
-
+    }
 }
 
+
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-    
-    
+    #buttonAdm p{
+        margin-left: 35px;
+    }
+
+    #ODS11 {
+        grid-template-columns: 45% 45%;
+    }
+
+    #Sobrenos img{
+        margin-left: 20px;
+    }
+
+    footer {
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+    }
+
+    .footer-content {
+        background-color: #1C1C1C;
+    }
+
+    #SectFunctions {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 70px);
+        justify-content: center;
+        align-items: start;
+        text-align: center;
+        width: 65%;
+        gap: 250px;
+        margin: auto;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
+    #ODS11 {
+        grid-template-columns: 45% 45%;
+    }
 
+    footer {
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+    }
 
-
+    .footer-content {
+        background-color: #1C1C1C;
+    }
 }
