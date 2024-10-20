@@ -15,13 +15,11 @@ body {
   flex-direction: column;
   gap: 5px;
   max-width: 350px;
-  width: 300px;
-  height: 300px;
+  width: 100%;
   align-items: center;
-  background-color: #f0f0f0;
   padding: 20px;  
   border-radius: 20px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 0px 8px 12px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(50px);
   margin-bottom: 200px;
 }
@@ -138,29 +136,25 @@ footer {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
     margin: 0;
     overflow: hidden;
   }
   
   .form {
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 5px;
-    margin-top: 100px;
+    margin-top: 200px;
     max-width: 350px;
-    width: 400px;
-    height: 400px;
+    width: 100%;
     align-items: center;
     background-color: #fff;
-    padding: 20px;  
     border-radius: 20px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 0px 8px 12px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(50px);
+    padding: 20px;
   }
-  
-  
   
   .title {
     font-size: 28px;
@@ -169,7 +163,6 @@ footer {
     display: flex;
     align-items: center;
   }
-  
   
   .message, .signin {
     color: rgba(88, 87, 87, 0.822);
@@ -218,7 +211,7 @@ footer {
     color: royalblue;
   }
   
-  .form label .input:focus{
+  .form label .input:focus {
     border-color: royalblue;
   }
   
@@ -239,27 +232,22 @@ footer {
     background-color: rgb(56, 90, 194);
   }
   
-  div{
+  div {
     display: flex;
     flex-direction: column;
     gap: 23px;
   }
 
   footer {
-    background-color: #1C1C1C; 
-    color: white;
-    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    color: black;
     text-align: center;
-    margin-top: -300px;
+    transform: translateY(3%);
   }
 
-  #bus{
-    position: absolute;
-    transform: scaleX(-100%);
-    width: 50%;
-    margin-left: -98%;
-  }
-  
   #backLogin {
     position: absolute;
     top: 30px;
@@ -267,19 +255,7 @@ footer {
     width: 40px; 
     height: auto;
   }
-
-  .estrada{
-      width: 150%;
-      display: flex;
-  }
-    
-  .estrada .listra{
-      background-color: #1C1C1C;
-      width: 40px;
-      height: 10px;
-      margin-bottom: -10px;
-      border-radius: 10px;
-  }   
 }
+
 
 
