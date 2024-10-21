@@ -13,7 +13,7 @@ section {
     align-items: center;
     gap: 10%;
     min-height: 700px;
-    max-width: 100%;
+    width: 100%;
 }
 
 section div {
@@ -97,8 +97,11 @@ nav {
 /* Primeira Seção - Bem Vindos */
 
 #BemVindos img {
-    position: absolute;
-    transform: translateX(20%) translateY(20%);
+    position: relative;
+    right: 0;
+    transform: translateX(-27.5%) translateY(30%);
+    width: 150%;
+    height: 100%;
     z-index: -1;
 }
 
@@ -843,6 +846,11 @@ footer p {
 
     #BemVindos {
         grid-template-columns: 45% 30%;
+    }
+
+    #BemVindos img{
+        transform: translateX(-33%) translateY(20%);
+        z-index: -1;
     }
 
     .text {
