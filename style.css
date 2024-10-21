@@ -97,12 +97,9 @@ nav {
 /* Primeira Seção - Bem Vindos */
 
 #BemVindos img {
-    height: 655px;
-    transform: translateY(-25%) translateX(200px);
-    max-width: 100%;
     position: absolute;
-    margin-left: -15%;
-    rotate: 0.19deg;
+    transform: translateX(20%) translateY(20%);
+    z-index: -1;
 }
 
 #BemVindos {
