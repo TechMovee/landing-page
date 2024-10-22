@@ -120,8 +120,8 @@ nav {
     width: 70%;
 }
 
-.text h3 {
-    font-size: 40px;
+.text h2 {
+    font-size: 30px;
     font-weight: 600;
     margin-bottom: 45px;
 }
@@ -179,7 +179,7 @@ nav {
     margin-left: 5%;
 }
 
-#ODS11 .text h3 {
+#ODS11 .text h2 {
     margin-bottom: 150px;
     color: black
 }
@@ -298,6 +298,7 @@ nav {
     text-align: center;
     width: 75%;
     margin: auto;
+    margin-top: 10%;
 }
 
 
@@ -326,6 +327,7 @@ footer {
     color: white;
     padding: 20px;
     text-align: center;
+
 }
 
 .footer-content {
@@ -333,6 +335,8 @@ footer {
     gap: 43px;
     flex-direction: column;
     align-items: center;
+
+
 }
 
 .icons {
@@ -377,6 +381,8 @@ footer p {
     width: 100%;
     height: 100%;
     transform: translateY(5%);
+    margin-top: -100%;
+
 }
 
 
@@ -648,9 +654,9 @@ footer p {
     /* Seção 5 - Funcionalidades */
 
     #tituloFunctions {
-        font-size: 40px;
+        font-size: 30px;
         color: black;
-    }
+     }
 
 
     #tituloFunctions strong {
@@ -663,9 +669,7 @@ footer p {
         flex-direction: column;
         gap: 50px;
         margin-left: 23%;
-        height: 100%;
-        width: 55%;
-        margin-top: -550px;
+        width: 60%;
     }
 
     .functions {
@@ -684,7 +688,8 @@ footer p {
         color: white;
         padding: 0px;
         text-align: center;
-        margin-top: -300px;
+        margin-top: -135%;
+
     }
 
     .footer-content {
@@ -736,12 +741,10 @@ footer p {
         width: 100%;
         height: 100%;
         transform: translateY(15%);
+        margin-top: 610px;
     }
 
-    #final {
-        background-color: #1C1C1C;
-        height: 5%;
-    }
+ 
 }
 
 
@@ -849,7 +852,7 @@ footer p {
     }
 
     #BemVindos img{
-        transform: translateX(-33%) translateY(20%);
+        transform: translateX(-33.5%) translateY(20%);
         z-index: -1;
     }
 
@@ -1185,6 +1188,11 @@ footer p {
 
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    
+    #BemVindos img{
+        transform: translateX(-33.5%) translateY(20%);
+    }
+
     #buttonAdm p{
         margin-left: 35px;
     }
@@ -1222,6 +1230,10 @@ footer p {
 }
 
 @media only screen and (min-width: 1200px) {
+
+    #BemVindos img{
+        transform: translateX(-33.5%) translateY(20%);
+    }
     #ODS11 {
         grid-template-columns: 45% 45%;
     }
