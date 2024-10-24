@@ -26,7 +26,7 @@ body {
     height: 2300px;
     max-width: 100%;
     overflow-x: hidden;
-    background-color: #ffffff;
+    background-color: #1C1C1C;
 }
 
 /* NavBar */
@@ -65,7 +65,7 @@ nav {
 #buttonAdm {
     background-color: transparent;
     border: 2px solid #0056b3;
-    color: #0056b3;
+    color: #ffffff;
     width: 15%;
     height: 50%;
     margin-right: 50px;
@@ -127,7 +127,7 @@ nav {
 .text {
     margin-left: 5%;
     text-align: center;
-    color: black;
+    color: #ffffff;
     transform: translateY(-50%);
 }
 
@@ -159,7 +159,7 @@ nav {
     margin-left: 2px;
     background-color: transparent;
     border: 2px solid #0276B2;
-    color: #0276B2;
+    color: #ffffff;
 }
 
 #BemVindos .text button:hover {
@@ -193,6 +193,8 @@ nav {
 #ODS11 .text {
     margin-bottom: 5%;
     margin-left: 5%;
+    color: black
+
 }
 
 #ODS11 .text h2 {
@@ -226,7 +228,7 @@ nav {
 
 #Sobrenos p {
     text-align: center;
-    color: black;
+    color: #ffffff;
     font-size: 23px;
     margin-right: 100px;
 }
@@ -292,7 +294,7 @@ nav {
 #tituloFunctions {
     margin: 5% 0 5% 10%;
     font-size: 40px;
-    color: black;
+    color: #ffffff;
 }
 
 
@@ -315,6 +317,7 @@ nav {
     width: 75%;
     margin: auto;
     margin-top: 10%;
+    color: #ffffff;
 }
 
 
@@ -629,7 +632,7 @@ footer p {
 
     #Sobrenos img {
         width: 90%;
-        margin-left: 20px;
+        margin-left: 18px;
         border-radius: 25px;
     }
 
@@ -695,10 +698,10 @@ footer p {
     }
 
     #SectFunctions {
-        display: grid;
-        grid-template-columns: repeat(1 ,1fr);
+        display: flex;
+        flex-direction: column;
         gap: 50px;
-        margin-left: 20%;
+        margin-left: 23%;
         width: 60%;
     }
 
@@ -709,8 +712,6 @@ footer p {
         align-items: center;
         justify-content: center;
     }
-
- 
 
     /* Footer */
 
@@ -902,9 +903,9 @@ footer p {
 
     .text {
         margin-left: 5%;
+        transform: translateY(-20%);
         text-align: center;
         color: black;
-        transform: translateY(5%);
     }
 
     #BemVindos .text {
@@ -970,6 +971,7 @@ footer p {
     }
 
     #ODS11 .text {
+        margin-top: -150%;
         margin-left: 5%;
     }
 
@@ -991,7 +993,7 @@ footer p {
     #ODS11 img {
         width: 80%;
         margin-top: 30px;
-        margin-left: -100px;
+        margin-left: -103px;
 
     }
 
@@ -1011,13 +1013,13 @@ footer p {
     }
 
     #Sobrenos p {
-        font-size: 16px;
+        font-size: 18px;
         margin: -20% 10% 5% 10%;
     }
 
     #Sobrenos img {
         width: 90%;
-        transform: translateX(-2%);
+        margin-left: 50px;
         border-radius: 25px;
     }
 
@@ -1107,7 +1109,7 @@ footer p {
         display: flex;
         flex-flow: column;
         width: 80%;
-        /* height: 160px; */
+        height: 160px;
         background-color: #21445B;
         border-radius: 50%;
         align-items: center;
